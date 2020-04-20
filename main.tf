@@ -4,6 +4,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "web_server_rg" {
-  name = "web-rg-2"
+  name = "web-rg-"
   location = "westus2"
 }
